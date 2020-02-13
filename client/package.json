@@ -1,0 +1,39 @@
+{
+  "name": "billtrim",
+  "version": "0.1.0",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.4.1",
+    "dateformat": "^3.0.3",
+    "flux": "^3.1.3",
+    "json-query": "^2.2.2",
+    "link": "^0.1.5",
+    "moment": "^2.24.0",
+    "mssql": "^4.0.4",
+    "postgres-interval": "^1.1.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.13"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "prettier": "prettier src/**/*.js src/**/*.css --write --single-quote"
+  },
+  "proxy": "http://localhost:6001/",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-check-es2015-constants": "^6.22.0",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
+    "babel-plugin-transform-es2015-block-scoping": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
