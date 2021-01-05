@@ -2,7 +2,7 @@
   "name": "billtrim",
   "version": "0.1.0",
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "body-parser": "^1.18.2",
     "bootstrap": "^4.4.1",
     "dateformat": "^3.0.3",
